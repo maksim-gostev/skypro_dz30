@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "slypro-dz30"
+name = "skypro-dz30"
 version = "0.1.0"
 description = ""
 authors = ["flood <teranys1986@gmail.com>"]
 readme = "README.md"
-packages = [{include = "slypro_dz30"}]
+packages = [{include = "skypro_dz30"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
