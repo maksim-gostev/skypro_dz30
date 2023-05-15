@@ -31,7 +31,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('cat/', include('ads.category.urls')),
     path('ad/', include('ads.ad.urls')),
-    path('user/', include('users.user.urls'))
+    path('user/', include('users.user.urls')),
+    path('selection/', include('selection.urls'))
 ]
 
 urlpatterns += router.urls
